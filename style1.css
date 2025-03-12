@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f8cdda, #fbc2eb);
+  color: #4a4a4a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures full height */
+}
+
+/* Header */
+header {
+  background: rgba(255, 192, 203, 0.8);
+  padding: 40px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+/* Main Content (Centered) */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(255, 228, 225, 0.9);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Sections */
+.intro,
+.follow,
+.contact-form {
+  margin-bottom: 20px;
+}
+
+/* Follow Icons */
+.follow img {
+  width: 40px;
+  margin: 5px;
+}
+
+/* Contact Form */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5;
+}
